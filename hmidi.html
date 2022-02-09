@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+ 
+  <title>Clos Marsault</title>
+</head>
+<body>
+    <style>
+    body{
+     background-image: url('https://journalauto.com/wp-content/uploads/2022/01/CL-21.009.022.jpg') ;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     font-family: system-ui;
+
+    }
+     
+    </style>
+    <table style="width:100%">
+        <style>
+            .tableau-style{
+         border-collapse: collapse;
+         min-width: 400px;
+         width: auto;
+         box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+     }
+        
+        </style>
+       
+        <tr>
+            <th>client</th>
+            <th>Gestionnaire société</th>
+            <th>Administrateur site</th>
+        </tr>
+    </table>
+  <header>
+    <nav>
+      <ul>
+         <li id="logo"><a href="#">Clos Marsault</a></li>
+         <li><a href="#client">client</a></li>
+         <li><a href="#Gestionnaire société">Gestionnaire société</a></li>
+         <li><a href="#Administrateur site">Administrateur site</a></li>
+      </ul>
+      <style>
+          ul{
+              text-align: center;
+          }
+          ul:hover li a{
+              opacity: 0;
+
+          }
+      </style>
+      <style>
+          ul li{
+              list-style: none;
+              margin: 14px 0;
+          }
+          ul li a{
+              color: #fff; 
+              text-decoration: none;
+              font-size: 20px;
+              font-weight: 500px;
+              letter-spacing: 4px;
+              background: darkgoldenrod;
+              padding: 6px 15px;
+              border-radius: 20px;
+              display: inline-block;
+              transform: 0.9s;
+          }
+          ul li a:hover{
+              transform: scale(1.5);
+              background: darkgreen;
+              opacity: 1;
+          }
+          ul li::after{
+              content: attr(href);
+              color: black;
+              position: absolute;
+              left: 50% ; 
+              top: 50% ; 
+              transform: translate(-50%,-50%);
+              font-size: 80px;
+              font-weight: 900;
+              text-transform: uppercase;
+              opacity: 0;
+              letter-spacing: 5px;
+              pointer-events: none;
+              transition: 0.5s;
+          }
+          ul li:hover:after{
+              opacity: 0.5;
+              letter-spacing: 5px;
+          }
+      </style>
+    </nav>
+    <div id="imagePrincipale">
+        <h1>Clos Marsault</h1>
+        <div id="premierTrait"></div>
+        <h3>Location des voitures</h3>
+    </div>
+    <style>
+        *{
+            margin: 0; 
+            padding: 0;
+        }
+        section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+  </header>
+  <section id="Présentation"></section>
+  <footer>
+
+</footer>
+</body>
+</html>
+
